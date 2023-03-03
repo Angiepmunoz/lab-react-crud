@@ -55,7 +55,7 @@ export default function ShowsIndex() {
               type="text"
               value={searchTitle}
               id="searchTitle"
-              onChange={(handleTextChange())}
+              onChange={handleTextChange}
             />
           </label>
           <section className="shows-index">
